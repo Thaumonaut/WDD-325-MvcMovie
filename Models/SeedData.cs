@@ -51,6 +51,27 @@ public static class SeedData
                     Genre = "Western",
                     Price = 3.99M,
                     Rating="PG-13"
+                },new Movie
+                {
+                    Title = "Star Wars: Episode III - Revenge of the Sith",
+                    ReleaseDate = DateTime.Parse("2005-5-19"),
+                    Genre = "Fantasy",
+                    Price = 6.99M,
+                    Rating="PG-13"
+                },new Movie
+                {
+                    Title = "Tron: Legacy",
+                    ReleaseDate = DateTime.Parse("2010-12-17"),
+                    Genre = "Sci-Fi",
+                    Price = 8.99M,
+                    Rating="PG"
+                },new Movie
+                {
+                    Title = "Harry Potter and the Sorcerer's Stone",
+                    ReleaseDate = DateTime.Parse("2001-11-16"),
+                    Genre = "Fantasy",
+                    Price = 12.99M,
+                    Rating="PG"
                 }
             );
             context.SaveChanges();
